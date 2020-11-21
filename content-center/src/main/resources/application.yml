@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    url: jdbc:mysql://118.25.73.94:3306/content_center
+    hikari:
+      username: root
+      password: Wjh1234.
+      driver-class-name: com.mysql.cj.jdbc.Driver
+server:
+  port: 8010
