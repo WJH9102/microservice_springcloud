@@ -5,3 +5,15 @@ spring:
       username: root
       password: Wjh1234.
       driver-class-name: com.mysql.cj.jdbc.Driver
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 118.25.73.94:8848
+#        namespace: 0a853f35-2156-4a31-864b-da987125f870
+#        cluster-name: NJ
+  application:
+    name: user-center
+logging:
+  config: classpath:logback-boot.xml
+server:
+  port: 8080

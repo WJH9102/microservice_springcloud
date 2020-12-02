@@ -1,2 +1,6 @@
 GET http://localhost:8010/test
 Accept: application/json
+
+###
+GET http://{{host}}:{{port}}/shares/1
+Accept: application/json
